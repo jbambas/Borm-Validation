@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aORD" : "JaroslavBambas 3/30/2015 16:20",
+		"aORD:" : "JaroslavBambas 3/30/2015 16:19",
+		"communicationsInSameParticipant" : "JaroslavBambas 3/30/2015 16:22",
+		"emptyParticipants" : "JaroslavBambas 3/30/2015 16:23",
+		"getCommunications" : "JaroslavBambas 3/30/2015 16:20",
+		"initialize" : "JaroslavBambas 3/30/2015 16:20",
+		"isServiceOrientedParticipant:" : "JaroslavBambas 3/29/2015 23:20",
+		"listOfFailures" : "JaroslavBambas 3/30/2015 16:20",
+		"main" : "JaroslavBambas 3/30/2015 16:28",
+		"missingConditions" : "JaroslavBambas 3/30/2015 16:23",
+		"missingDataFlows" : "JaroslavBambas 3/30/2015 16:29",
+		"validConditionsInNode:" : "JaroslavBambas 3/29/2015 16:09" } }
