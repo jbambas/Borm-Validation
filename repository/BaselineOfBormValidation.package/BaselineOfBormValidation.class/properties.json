@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfBormValidation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfBormValidation",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
