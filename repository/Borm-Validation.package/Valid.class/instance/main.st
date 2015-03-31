@@ -1,5 +1,5 @@
 initialization
-main
+main 
 Transcript show: 'prazdni participanti>>  '.
 Transcript show: (self emptyParticipants); cr; cr.
 
