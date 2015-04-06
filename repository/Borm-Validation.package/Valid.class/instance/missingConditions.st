@@ -1,6 +1,5 @@
 validation
 missingConditions
-	"vrací kolekci uzlů, jejichž nekteré odchozí přechody nemají podnímku..."
 	| nodes result |
 	nodes:=OrderedCollection new.
 	result:=OrderedCollection new.

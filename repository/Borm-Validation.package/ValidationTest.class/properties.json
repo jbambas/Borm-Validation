@@ -1,0 +1,17 @@
+{
+	"category" : "Borm-Validation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ORDEmptyParticipants",
+		"ORDMissingDataFlows",
+		"ORDMissingConditions",
+		"ORDCommunicationsInSamePart" ],
+	"name" : "ValidationTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
