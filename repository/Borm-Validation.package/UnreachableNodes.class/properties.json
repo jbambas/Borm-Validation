@@ -1,0 +1,14 @@
+{
+	"category" : "Borm-Validation-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UnreachableNodes",
+	"pools" : [
+		 ],
+	"super" : "ValidationTest",
+	"type" : "normal" }

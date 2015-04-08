@@ -1,6 +1,8 @@
 auxiliar
 validConditionsInNode:  aNode
-	"pomocná metoda, vraci false, když nekterý z přechodů uzlu má constraint a nekterý ne..."
+
+	"Method to check whether all outgoing transitions from the node are conditional or not, if is some conditional and some unconditional, it returns false."
+	
 	| noConstraint |
 	noConstraint:=aNode outgoing select: [ :each | each constraint ='' ].
 	((noConstraint size)=(aNode outgoing  size)) ifTrue: [ ^ true ].

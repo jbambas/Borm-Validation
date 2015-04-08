@@ -1,6 +1,9 @@
 auxiliar
 getCommunications
 	| communications nodes activities |
+	
+	"method to find and return all communications in ORD"
+	
 	communications:=OrderedCollection new.
 	nodes:=OrderedCollection new.
 	activities:=OrderedCollection new.

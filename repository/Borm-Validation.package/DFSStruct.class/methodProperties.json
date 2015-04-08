@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"close" : "JaroslavBambas 4/8/2015 14:03",
+		"fresh" : "JaroslavBambas 4/8/2015 14:03",
+		"open" : "JaroslavBambas 4/8/2015 14:03" },
+	"instance" : {
+		"getComponent" : "JaroslavBambas 4/8/2015 13:26",
+		"getNode" : "JaroslavBambas 4/8/2015 13:24",
+		"initialize" : "JaroslavBambas 4/8/2015 14:11",
+		"isClose" : "JaroslavBambas 4/8/2015 14:07",
+		"isFresh" : "JaroslavBambas 4/8/2015 14:08",
+		"isOpen" : "JaroslavBambas 4/8/2015 14:08",
+		"setClose" : "JaroslavBambas 4/8/2015 14:06",
+		"setComponent:" : "JaroslavBambas 4/8/2015 13:26",
+		"setFresh" : "JaroslavBambas 4/8/2015 14:06",
+		"setNode:" : "JaroslavBambas 4/8/2015 13:24",
+		"setOpen" : "JaroslavBambas 4/8/2015 14:07" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Borm-Validation-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"node",
+		"status",
+		"component" ],
+	"name" : "DFSStruct",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+auxiliar
+doBFS: DFSArray node: aNode
+	| aQueue neighbors node|
+	
+	"method to perform BFS algorithm"
+	
+	aQueue:=OrderedCollection new.
+	aQueue addLast: aNode.
+	aNode setOpen.
+	
+	[aQueue isEmpty] whileFalse: [
+			node:=aQueue removeFirst.
+			neighbors := self getFollowsNeighbors: node Array: DFSArray.
+			neighbors do: [ :each | (each isFresh) ifTrue: [aQueue addLast: each. each setOpen.] ].
+			aNode setClose.
+	].
