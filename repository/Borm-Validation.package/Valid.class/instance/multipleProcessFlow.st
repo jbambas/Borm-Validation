@@ -12,6 +12,6 @@ multipleProcessFlow
 		ifTrue: [counter:=counter+1. self doDFS: DFSArray state: each counter: counter]
 	].
 
-	^ DFSArray.
+	"^ DFSArray."^counter.
 	
 	
