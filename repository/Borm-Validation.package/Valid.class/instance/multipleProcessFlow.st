@@ -9,7 +9,7 @@ multipleProcessFlow
 	counter := 0.
 	
 	DFSArray do: [ :each | (each isFresh) 
-		ifTrue: [counter:=counter+1. self doDFS: DFSArray state: each counter: counter]
+		ifTrue: [ counter:=counter+1. self doDFS: DFSArray state: each counter: counter]
 	].
 
 	"^ DFSArray."^counter.

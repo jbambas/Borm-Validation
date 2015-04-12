@@ -7,3 +7,5 @@ setUp
 	ORDMultipleProcessFlow := self ORDMultipleProcessFlow: true.
 	ORDMultipleRoles := self ORDMultipleRoles: true.
 	ORDUnreachableNodes := self ORDUnreachableNodes.
+	ORDMissingFinalState := self ORDMissingFinalState.
+	ORDMissingStartState := self ORDMissingStartState.

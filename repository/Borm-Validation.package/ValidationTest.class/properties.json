@@ -12,7 +12,9 @@
 		"ORDCommunicationsInSamePart",
 		"ORDMultipleProcessFlow",
 		"ORDMultipleRoles",
-		"ORDUnreachableNodes" ],
+		"ORDUnreachableNodes",
+		"ORDMissingStartState",
+		"ORDMissingFinalState" ],
 	"name" : "ValidationTest",
 	"pools" : [
 		 ],

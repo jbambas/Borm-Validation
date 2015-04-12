@@ -10,7 +10,7 @@ multipleRolesOfParticipant
 				DFSArray:=self getDFSstructsForParticipant: each.
 				counter:=0.
 				DFSArray do: [ : i | (i isFresh) 
-					ifTrue: [counter:=counter+1. self doDFS2: DFSArray state: i counter: counter]
+					ifTrue: [i setOpen. counter:=counter+1. self doDFS2: DFSArray state: i counter: counter]
 				].
 				(counter>1) ifTrue: [ results add: each ]
 				ifFalse:[
