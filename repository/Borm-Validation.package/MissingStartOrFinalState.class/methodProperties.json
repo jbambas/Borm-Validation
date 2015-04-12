@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMissingBothStates" : "JaroslavBambas 4/13/2015 00:45",
-		"testMissingFinalState" : "JaroslavBambas 4/13/2015 00:44",
-		"testMissingStartState" : "JaroslavBambas 4/13/2015 00:45" } }
+		"testMissingBothStates" : "JaroslavBambas 4/13/2015 01:37",
+		"testMissingFinalState" : "JaroslavBambas 4/13/2015 01:29",
+		"testMissingStartState" : "JaroslavBambas 4/13/2015 01:34",
+		"testNotMissingStates" : "JaroslavBambas 4/13/2015 01:38" } }
