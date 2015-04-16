@@ -9,3 +9,4 @@ setUp
 	ORDUnreachableNodes := self ORDUnreachableNodes.
 	ORDMissingFinalState := self ORDMissingFinalState.
 	ORDMissingStartState := self ORDMissingStartState.
+	ORDBlindBranch := self ORDBlindBranch.

@@ -4,7 +4,7 @@ ORDMissingStartState
 	aORD := BormDiagram new.
 	aParticipant := BormParticipant new.
 	aORD add: aParticipant.
-	s1 := BormState new. s2 := BormState new. s1 isFinal: true.
+	s1 := BormState new. s2 := BormState new. s2 isFinal: true.
 	a1 := BormActivity new.
 	
 	aParticipant add: s1. aParticipant add: s2. aParticipant add: a1.

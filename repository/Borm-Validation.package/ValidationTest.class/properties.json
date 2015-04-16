@@ -14,7 +14,8 @@
 		"ORDMultipleRoles",
 		"ORDUnreachableNodes",
 		"ORDMissingStartState",
-		"ORDMissingFinalState" ],
+		"ORDMissingFinalState",
+		"ORDBlindBranch" ],
 	"name" : "ValidationTest",
 	"pools" : [
 		 ],

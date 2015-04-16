@@ -14,7 +14,7 @@ participant add: a2.
 
 t1:=BormTransition new.
 t2:=BormTransition new.
-t1 constraint: 'condition'.
+t1 constraint: BormConstraint new.
 
 t1 source: s1.
 t1 target: a1.

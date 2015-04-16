@@ -16,10 +16,10 @@ ORDMultipleProcessFlow: expresion
 	participantA add: s1. participantA add: s2. participantA add: a1.
 	participantB add: s3. participantB add: s4. participantB add: a2.
 	
-	t1 source: s1. t1 target: a1.
-	t2 source: a1. t2 target: s2.
-	t3 source: s3. t3 target: a2.
-	t4 source: a2. t4 target: s4.
+	t1 from: s1 to: a1.
+	t2 from: a1 to: s2.
+	t3 from: s3 to: a2.
+	t4 from: a2 to: s4.
 	
 	a1 addTransition: t1. a1 addTransition: t2. a2 addTransition: t3. a2 addTransition: t4. 
 	s1 addTransition: t1. s2 addTransition: t2. s3 addTransition: t3. s4 addTransition: t4.	

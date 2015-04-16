@@ -8,6 +8,6 @@ missingConditions
 	result:=OrderedCollection new.
 	
 	aORD participants do: [ :each | nodes addAll: each nodes ].
-	nodes do: [ :each | (self validConditionsInNode: each)=false ifTrue: [ result add: each ] ].
+	nodes do: [ :each | (self validConditionsInNode: each) ifFalse: [ result add: each ] ].
 	
 	^ result.
