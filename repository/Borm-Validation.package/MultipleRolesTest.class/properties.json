@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "NoPathFromProcessNode",
+	"name" : "MultipleRolesTest",
 	"pools" : [
 		 ],
 	"super" : "ValidationTest",

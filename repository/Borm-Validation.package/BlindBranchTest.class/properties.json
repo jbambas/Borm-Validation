@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MissingStartOrFinalState",
+	"name" : "BlindBranchTest",
 	"pools" : [
 		 ],
 	"super" : "ValidationTest",
