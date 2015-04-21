@@ -1,0 +1,15 @@
+{
+	"category" : "Borm-Validation-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"listOfFailures",
+		"aORD" ],
+	"name" : "BormValidator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

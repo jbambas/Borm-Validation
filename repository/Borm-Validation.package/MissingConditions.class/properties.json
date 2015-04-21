@@ -1,0 +1,14 @@
+{
+	"category" : "Borm-Validation-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JaroslavBambas 4/21/2015 22:44",
+	"instvars" : [
+		 ],
+	"name" : "MissingConditions",
+	"pools" : [
+		 ],
+	"super" : "BormError",
+	"type" : "normal" }

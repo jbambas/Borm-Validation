@@ -1,0 +1,14 @@
+{
+	"category" : "Borm-Validation-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JaroslavBambas 4/21/2015 22:50",
+	"instvars" : [
+		 ],
+	"name" : "UnreachableNodes",
+	"pools" : [
+		 ],
+	"super" : "BormError",
+	"type" : "normal" }

@@ -1,7 +1,7 @@
 tests
 testMultipleRoles_2InitialStates
 	| validation nodes states |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDMultipleRoles.
 	
 	nodes:=OrderedCollection new.

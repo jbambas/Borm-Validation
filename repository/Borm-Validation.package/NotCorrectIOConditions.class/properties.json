@@ -1,0 +1,14 @@
+{
+	"category" : "Borm-Validation-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JaroslavBambas 4/21/2015 22:49",
+	"instvars" : [
+		 ],
+	"name" : "NotCorrectIOConditions",
+	"pools" : [
+		 ],
+	"super" : "BormError",
+	"type" : "normal" }

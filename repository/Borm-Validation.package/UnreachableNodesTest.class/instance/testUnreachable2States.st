@@ -1,7 +1,7 @@
 tests
 testUnreachable2States
 	| validation  |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDUnreachableNodes.
 	validation aORD add: BormParticipant new.
 	validation aORD participants do: [ :each | each add: BormState new ].

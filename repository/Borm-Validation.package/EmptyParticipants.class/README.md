@@ -1,0 +1,1 @@
+An EmptyParticipants is a class represents error. The collection InvalidItems includes the participant without process nodes.

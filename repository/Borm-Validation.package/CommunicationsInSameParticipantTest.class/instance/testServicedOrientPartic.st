@@ -1,6 +1,6 @@
 tests
 testServicedOrientPartic
 	| validation |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDCommunicationsInSamePart.
 	self assert: validation communicationsInSameParticipant isEmpty.

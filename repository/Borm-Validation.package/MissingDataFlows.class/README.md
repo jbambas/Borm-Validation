@@ -1,0 +1,1 @@
+A MissingDataFlows is a class represents error. The collection InvalidItems includes the communications which is associated no data flows.

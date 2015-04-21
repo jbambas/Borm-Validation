@@ -1,15 +1,14 @@
 {
-	"category" : "Borm-Validation-Validation",
+	"category" : "Borm-Validation-Errors",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"listOfFailures",
-		"aORD" ],
-	"name" : "Valid",
+		"InvalidItems" ],
+	"name" : "BormError",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Error",
 	"type" : "normal" }

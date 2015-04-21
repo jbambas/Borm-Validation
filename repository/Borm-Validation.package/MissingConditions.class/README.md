@@ -1,0 +1,1 @@
+A MissingConditions is a class represents error. The collection InvalidItems includes the process nodes whose any outgoing transitions are conditional and other not.

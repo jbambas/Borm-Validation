@@ -1,0 +1,1 @@
+An UnreachableNodes is a class represents error. The collection InvalidItems includes process nodes which are unreachable from start state.

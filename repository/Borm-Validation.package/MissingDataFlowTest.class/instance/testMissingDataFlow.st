@@ -1,6 +1,6 @@
 tests
 testMissingDataFlow
  	| validation |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDMissingDataFlows.
 	self assert: validation missingDataFlows size equals: 1.

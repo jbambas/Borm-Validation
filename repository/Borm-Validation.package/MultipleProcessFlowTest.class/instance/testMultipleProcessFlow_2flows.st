@@ -1,7 +1,7 @@
 tests
 testMultipleProcessFlow_2flows
 	| validation  |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDMultipleProcessFlow.
 	
 	self assert: validation multipleProcessFlow = 2.

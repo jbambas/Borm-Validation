@@ -1,7 +1,7 @@
 tests
 testUnreachableActivity
 	| validation  |
-	validation:=Valid new.
+	validation:=BormValidator new.
 	validation aORD: ORDUnreachableNodes.
 	
 	validation aORD participants do: [ :each | each add: BormActivity new ].

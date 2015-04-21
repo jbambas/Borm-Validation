@@ -1,0 +1,1 @@
+A MissingStartOrFinalState a class represents error. The collection InvalidItems includes the participant with missing start or final state.

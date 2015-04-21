@@ -1,0 +1,1 @@
+A NodesOfBlindBranches is  a class represents error. The collection InvalidItems includes the process nodes which are a part of any blind branch.
