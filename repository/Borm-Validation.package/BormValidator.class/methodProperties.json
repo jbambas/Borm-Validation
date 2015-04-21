@@ -21,7 +21,7 @@
 		"initialize" : "JaroslavBambas 3/30/2015 16:20",
 		"isServiceOrientedParticipant:" : "JaroslavBambas 4/9/2015 00:02",
 		"listOfFailures" : "JaroslavBambas 3/30/2015 16:20",
-		"missingConditions" : "JaroslavBambas 4/16/2015 22:59",
+		"missingConditions" : "JaroslavBambas 4/21/2015 23:54",
 		"missingDataFlows" : "JaroslavBambas 4/8/2015 23:32",
 		"missingStartOrFinalState" : "JaroslavBambas 4/13/2015 00:41",
 		"multipleProcessFlow" : "JaroslavBambas 4/21/2015 22:27",
@@ -29,4 +29,4 @@
 		"noPathFromProcessNodeToFinal" : "JaroslavBambas 4/16/2015 19:36",
 		"run" : "JaroslavBambas 4/21/2015 22:56",
 		"unreachableNodes" : "JaroslavBambas 4/9/2015 00:40",
-		"validConditionsInNode:" : "JaroslavBambas 4/16/2015 20:40" } }
+		"validConditionsInNode:" : "JaroslavBambas 4/22/2015 00:04" } }

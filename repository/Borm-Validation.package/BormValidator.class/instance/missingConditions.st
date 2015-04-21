@@ -9,5 +9,4 @@ missingConditions
 	
 	aORD participants do: [ :each | nodes addAll: each nodes ].
 	nodes do: [ :each | (self validConditionsInNode: each) ifFalse: [ result add: each ] ].
-	
 	^ result.
