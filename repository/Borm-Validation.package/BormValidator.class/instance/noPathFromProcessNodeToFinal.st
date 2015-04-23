@@ -2,7 +2,7 @@ validation
 noPathFromProcessNodeToFinal
 	| DFSArray finals participants |
 	
-	"...todo..."
+	"Algorithm to find process nodes, from which is no path to any final state."
 	
 	DFSArray := OrderedCollection new.
 	participants:=aORD participants select: [ :each | (self isServiceOrientedParticipant: each)not ].

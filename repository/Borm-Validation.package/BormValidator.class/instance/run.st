@@ -16,11 +16,10 @@ run
 	temp:=self missingStartOrFinalState.
 	(temp size>0)ifTrue: [ listOfFailures add: (MissingStartOrFinalState new addCollection: temp)].
 	
-	temp:=self multipleProcessFlow.
-	(temp size>0)ifTrue: [ listOfFailures add: (MultipleProcessFlow new addCollection: temp)].
+	self multipleProcessFlow.
 	
 	temp:=self multipleRolesOfParticipant.
-	(temp size>0)ifTrue: [ listOfFailures add: (EmptyParticipants new addCollection: temp)].
+	(temp size>0)ifTrue: [ listOfFailures add: (MultipleRolesOfParticipant new addCollection: temp)].
 	
 	temp:=self noPathFromProcessNodeToFinal.
 	(temp size>0)ifTrue: [ listOfFailures add: (NodesOfBlindBranches new addCollection: temp)].

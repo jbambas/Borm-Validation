@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "JaroslavBambas 4/21/2015 22:47",
 	"instvars" : [
-		 ],
+		"numberOfFlows" ],
 	"name" : "MultipleProcessFlow",
 	"pools" : [
 		 ],
