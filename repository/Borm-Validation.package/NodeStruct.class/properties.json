@@ -1,0 +1,15 @@
+{
+	"category" : "Borm-Validation-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tag",
+		"node" ],
+	"name" : "NodeStruct",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

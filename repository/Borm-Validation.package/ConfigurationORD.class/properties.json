@@ -1,0 +1,16 @@
+{
+	"category" : "Borm-Validation-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nodes",
+		"BFSQueue",
+		"inputConditionNode" ],
+	"name" : "ConfigurationORD",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

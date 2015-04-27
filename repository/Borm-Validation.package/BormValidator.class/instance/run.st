@@ -27,5 +27,5 @@ run
 	temp:=self unreachableNodes.
 	(temp size>0)ifTrue: [ listOfFailures add: (UnreachableNodes new addCollection: temp)].
 	
-	"temp:=self dependencyPrinciple
-	(temp size>0)ifTrue: [ listOfFailures add: (NotCorrectIOConditions new addCollection: temp)]."
+	temp:=self dependencyPrinciple.
+	(temp size>0)ifTrue: [ listOfFailures add: (NotCorrectIOConditions new addCollection: temp)].
