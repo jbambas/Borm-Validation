@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"getIndexesOfValidCombinations" : "JaroslavBambas 4/27/2015 23:19",
 		"initialize" : "JaroslavBambas 4/27/2015 12:08",
 		"node" : "JaroslavBambas 4/27/2015 12:08",
 		"node:" : "JaroslavBambas 4/27/2015 12:08",
+		"setTag:" : "JaroslavBambas 4/28/2015 00:04",
 		"setTagFalse" : "JaroslavBambas 4/27/2015 12:10",
 		"setTagTrue" : "JaroslavBambas 4/27/2015 12:10",
 		"tag" : "JaroslavBambas 4/27/2015 12:11" } }

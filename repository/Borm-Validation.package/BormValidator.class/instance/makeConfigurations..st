@@ -1,12 +1,10 @@
 auxiliar
 makeConfigurations: configurations
-	configurations do: [ :configuration | 
-		configuration doBFS: configurations
+	| startSize |
+	startSize:=0.
+	[ startSize=configurations size ] whileFalse:[
+		startSize := configurations size.
+		configurations do: [ :i | i doBFS: configurations.]
 	].
-	
-	
 
-
-
-	"configurations add: ((configurations at: 1) copyOfConfiguration )."
 	^configurations 
