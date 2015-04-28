@@ -1,0 +1,3 @@
+accessing
+isEmptyBFSQueue
+	^ BFSQueue isEmpty.

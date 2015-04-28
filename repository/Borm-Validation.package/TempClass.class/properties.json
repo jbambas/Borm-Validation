@@ -1,0 +1,15 @@
+{
+	"category" : "Borm-Validation-Validation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"transition",
+		"tag" ],
+	"name" : "TempClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

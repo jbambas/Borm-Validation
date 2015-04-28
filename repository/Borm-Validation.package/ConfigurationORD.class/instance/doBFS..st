@@ -3,9 +3,13 @@ doBFS: collectionOfConfigurations
 	| node predecessors tmp |
 	
 	[BFSQueue isEmpty] whileFalse: [ 
-		(BFSQueue first node className='BormState' and: [BFSQueue first node hasInputConditions])
+		(BFSQueue first node className='BormState' and: [BFSQueue first node hasOutputConditions])ifTrue: [
+				BFSQueue first setTag: (BFSQueue first getTruthOfCombination: self).
+			].
+
+		((BFSQueue first node className='BormState' and: [BFSQueue first node hasInputConditions]) and: [BFSQueue first tag])
 		ifTrue: [  
-			node:=BFSQueue removeFirst. 
+			node:=BFSQueue removeFirst.  
 			node getIndexesOfValidCombinations do: [ :index | 
 				tmp:=self copyOfConfiguration.
 				collectionOfConfigurations addLast: tmp.
@@ -21,7 +25,7 @@ doBFS: collectionOfConfigurations
 			node:=BFSQueue removeFirst.
 			predecessors := self getPredecessorsOf: node.
 			predecessors do: [ :each | 
-				(each tag isNil)ifTrue:[ BFSQueue addLast: each. (node tag)ifTrue: [ each setTagTrue ]ifFalse:[ each setTagFalse ] ]. 
+				(each tag isNil)ifTrue:[ BFSQueue addLast: each. each setTag:(node tag) ]. 
 				(each tag=false & node tag=true)ifTrue: [ each setTagTrue. BFSQueue addLast: each. ].
 				
 			]
