@@ -4,6 +4,16 @@
 	"instance" : {
 		"ORDBlindBranch" : "JaroslavBambas 4/16/2015 23:29",
 		"ORDCommunicationsInSamePart" : "JaroslavBambas 4/6/2015 18:39",
+		"ORDComplexInvalid" : "JaroslavBambas 4/29/2015 20:10",
+		"ORDComplexSemestralWork" : "JaroslavBambas 4/29/2015 22:16",
+		"ORDComplexValid" : "JaroslavBambas 4/29/2015 20:12",
+		"ORDDepPrincipleAnd" : "JaroslavBambas 4/29/2015 17:29",
+		"ORDDepPrincipleFail1" : "JaroslavBambas 4/29/2015 17:39",
+		"ORDDepPrincipleFail2" : "JaroslavBambas 4/29/2015 17:40",
+		"ORDDepPrincipleNesting1" : "JaroslavBambas 4/29/2015 18:35",
+		"ORDDepPrincipleNesting2" : "JaroslavBambas 4/29/2015 20:04",
+		"ORDDepPrincipleOr" : "JaroslavBambas 4/29/2015 17:30",
+		"ORDDepPrincipleXor" : "JaroslavBambas 4/29/2015 17:30",
 		"ORDEmptyParticipants" : "JaroslavBambas 4/6/2015 17:19",
 		"ORDMissingConditions" : "JaroslavBambas 4/15/2015 01:09",
 		"ORDMissingDataFlows" : "JaroslavBambas 4/9/2015 12:56",
@@ -12,4 +22,4 @@
 		"ORDMultipleProcessFlow:" : "JaroslavBambas 4/13/2015 01:57",
 		"ORDMultipleRoles:" : "JaroslavBambas 4/9/2015 13:03",
 		"ORDUnreachableNodes" : "JaroslavBambas 4/9/2015 21:47",
-		"setUp" : "JaroslavBambas 4/16/2015 23:26" } }
+		"setUp" : "JaroslavBambas 4/29/2015 20:11" } }

@@ -10,3 +10,13 @@ setUp
 	ORDMissingFinalState := self ORDMissingFinalState.
 	ORDMissingStartState := self ORDMissingStartState.
 	ORDBlindBranch := self ORDBlindBranch.
+	ORDDepPrincipleAnd := self ORDDepPrincipleAnd.
+	ORDDepPrincipleOr := self ORDDepPrincipleOr.
+	ORDDepPrincipleXor := self ORDDepPrincipleXor.
+	ORDDepPrincipleFail1 := self ORDDepPrincipleFail1.
+	ORDDepPrincipleFail2 := self ORDDepPrincipleFail2.
+	ORDDepPrincipleNesting1 := self ORDDepPrincipleNesting1.
+	ORDDepPrincipleNesting2 := self ORDDepPrincipleNesting2.
+	ORDComplexInvalid := self ORDComplexInvalid.
+	ORDComplexSemestralWork := self ORDComplexSemestralWork.
+	ORDComplexValid := self ORDComplexValid.

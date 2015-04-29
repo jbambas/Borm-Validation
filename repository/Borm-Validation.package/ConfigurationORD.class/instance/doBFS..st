@@ -7,7 +7,7 @@ doBFS: collectionOfConfigurations
 				BFSQueue first setTag: (BFSQueue first getTruthOfCombination: self).
 			].
 
-		((BFSQueue first node className='BormState' and: [BFSQueue first node hasInputConditions]) and: [BFSQueue first tag])
+		((BFSQueue first node className='BormState' and: [BFSQueue first node hasInputConditions]) "and: [BFSQueue first tag]")
 		ifTrue: [  
 			node:=BFSQueue removeFirst.  
 			node getIndexesOfValidCombinations do: [ :index | 
