@@ -1,5 +1,19 @@
 auxiliar
 checkDecisionTables: aNodes configurations: configurations
+	| results checkingTable |
+	results:=OrderedCollection new.
+	aNodes do: [ :each | 
+		checkingTable := OrderedCollection new.
+		self auxiliaryMethodNode: each configurations: configurations table: checkingTable. 
+		(self controlCheckingTable: checkingTable ofNode: each)ifFalse: [ results add: each ]
+	].
+	^ results.
+
+
+
+
+
+
 	"| checkTable results values decisionTable |
 	results:=OrderedCollection new.
 	
@@ -15,6 +29,6 @@ checkDecisionTables: aNodes configurations: configurations
 		"]
 		
 	].
-"
 
-^configurations.
+
+^configurations."

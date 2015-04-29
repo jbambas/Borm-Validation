@@ -4,8 +4,10 @@
 	"instance" : {
 		"aORD" : "JaroslavBambas 3/30/2015 16:20",
 		"aORD:" : "JaroslavBambas 3/30/2015 16:19",
-		"checkDecisionTables:configurations:" : "JaroslavBambas 4/28/2015 23:06",
+		"auxiliaryMethodNode:configurations:table:" : "JaroslavBambas 4/29/2015 15:27",
+		"checkDecisionTables:configurations:" : "JaroslavBambas 4/29/2015 14:15",
 		"communicationsInSameParticipant" : "JaroslavBambas 4/8/2015 23:28",
+		"controlCheckingTable:ofNode:" : "JaroslavBambas 4/29/2015 14:11",
 		"dependencyPrinciple" : "JaroslavBambas 4/27/2015 22:00",
 		"doBFS:node:" : "JaroslavBambas 4/8/2015 23:39",
 		"doDFS2:state:counter:" : "JaroslavBambas 4/11/2015 13:07",
