@@ -29,3 +29,5 @@ run
 	
 	temp:=self dependencyPrinciple.
 	(temp size>0)ifTrue: [ listOfFailures add: (NotCorrectIOConditions new addCollection: temp)].
+	
+	^ self listOfFailures.
