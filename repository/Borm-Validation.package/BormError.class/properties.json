@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"InvalidItems" ],
+		"InvalidItems",
+		"severity" ],
 	"name" : "BormError",
 	"pools" : [
 		 ],

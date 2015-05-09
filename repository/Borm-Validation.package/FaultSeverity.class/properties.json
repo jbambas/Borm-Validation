@@ -1,14 +1,13 @@
 {
-	"category" : "Borm-Validation-Validation",
+	"category" : "Borm-Validation-Errors",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"tag",
-		"node" ],
-	"name" : "NodeStruct",
+		 ],
+	"name" : "FaultSeverity",
 	"pools" : [
 		 ],
 	"super" : "Object",

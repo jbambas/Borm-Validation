@@ -1,0 +1,3 @@
+enumeration
+Notice
+	^ #Notice

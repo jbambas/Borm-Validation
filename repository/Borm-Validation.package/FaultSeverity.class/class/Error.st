@@ -1,0 +1,3 @@
+enumeration
+Error
+	^ #Error

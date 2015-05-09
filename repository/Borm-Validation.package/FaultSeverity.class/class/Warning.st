@@ -1,0 +1,3 @@
+enumeration
+Warning
+	^ #Warning

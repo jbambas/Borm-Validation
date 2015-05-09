@@ -1,3 +1,4 @@
 initialization
 initialize
-	super initialize
+	super initialize.
+	severity := FaultSeverity Notice.
