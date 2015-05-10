@@ -4,4 +4,5 @@ testInvalidORD
 	validation:=BormValidator new.
 	validation aORD: ORDComplexInvalid.
 	results:=validation run.
-	self assert: results listOfFailures isEmpty not.
+	Transcript show: results.
+	self assert: results size=9.

@@ -4,4 +4,5 @@ testValidORD
 	validation:=BormValidator new.
 	validation aORD: ORDComplexValid.
 	results:=validation run.
-	self assert: true=true.
+	Transcript show: results.
+	self assert: results isEmpty.
